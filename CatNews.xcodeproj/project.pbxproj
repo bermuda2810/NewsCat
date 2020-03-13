@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD4918A72416667700D3B2C8 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4918A62416667700D3B2C8 /* NewsCell.swift */; };
+		BD6E8CAB241B9D29006FFE61 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E8CAA241B9D29006FFE61 /* News.swift */; };
+		BD6E8CAD241BA28D006FFE61 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */; };
 		BDDC481C240EB45B001C9080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC481B240EB45B001C9080 /* AppDelegate.swift */; };
 		BDDC481E240EB45B001C9080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC481D240EB45B001C9080 /* SceneDelegate.swift */; };
 		BDDC4820240EB45B001C9080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC481F240EB45B001C9080 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		BD4918A62416667700D3B2C8 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		BD6E8CAA241B9D29006FFE61 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
 		BDDC4818240EB45B001C9080 /* CatNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDC481B240EB45B001C9080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDC481D240EB45B001C9080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				BDDC4826240EB461001C9080 /* LaunchScreen.storyboard */,
 				BDDC4829240EB461001C9080 /* Info.plist */,
 				BD4918A62416667700D3B2C8 /* NewsCell.swift */,
+				BD6E8CAA241B9D29006FFE61 /* News.swift */,
+				BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */,
 			);
 			path = CatNews;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				BDDC4820240EB45B001C9080 /* ViewController.swift in Sources */,
 				BDDC481C240EB45B001C9080 /* AppDelegate.swift in Sources */,
 				BD4918A72416667700D3B2C8 /* NewsCell.swift in Sources */,
+				BD6E8CAB241B9D29006FFE61 /* News.swift in Sources */,
+				BD6E8CAD241BA28D006FFE61 /* NewsManager.swift in Sources */,
 				BDDC481E240EB45B001C9080 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L5Q8584KE5;
 				INFOPLIST_FILE = CatNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,6 +306,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catnews.CatNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Provisioning_dev_cat_news;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,7 +316,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L5Q8584KE5;
 				INFOPLIST_FILE = CatNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catnews.CatNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Provisioning_dev_cat_news;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
