@@ -48,7 +48,7 @@
                                                     <rect key="frame" x="15" y="10" width="345" height="100"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat3" translatesAutoresizingMaskIntoConstraints="NO" id="OPA-UU-OwI">
-                                                            <rect key="frame" x="0.0" y="0.0" width="160.50000000000006" height="100"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="160.5" height="100"/>
                                                             <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="OPA-UU-OwI" secondAttribute="height" multiplier="3:2" priority="999" id="q65-Lu-h0f"/>

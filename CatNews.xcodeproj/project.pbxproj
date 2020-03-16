@@ -43,6 +43,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BDBD2FE4241FA1FE001E0848 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E8CAA241B9D29006FFE61 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDBD2FE5241FA20E001E0848 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDBD2FE6241FA228001E0848 /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BDBD2FE6241FA228001E0848 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */,
+				BDDC481F240EB45B001C9080 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BDBD2FE7241FA25A001E0848 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC4821240EB45B001C9080 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BDBD2FE8241FA2A7001E0848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDBD2FE9241FA35D001E0848 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD4918A62416667700D3B2C8 /* NewsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BDDC480F240EB45B001C9080 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +110,16 @@
 		BDDC481A240EB45B001C9080 /* CatNews */ = {
 			isa = PBXGroup;
 			children = (
+				BDBD2FE5241FA20E001E0848 /* ViewController */,
+				BDBD2FE4241FA1FE001E0848 /* Models */,
+				BDBD2FE7241FA25A001E0848 /* Storyboard */,
+				BDBD2FE9241FA35D001E0848 /* Cell */,
+				BDBD2FE8241FA2A7001E0848 /* View */,
 				BDDC481B240EB45B001C9080 /* AppDelegate.swift */,
 				BDDC481D240EB45B001C9080 /* SceneDelegate.swift */,
-				BDDC481F240EB45B001C9080 /* ViewController.swift */,
-				BDDC4821240EB45B001C9080 /* Main.storyboard */,
 				BDDC4824240EB461001C9080 /* Assets.xcassets */,
 				BDDC4826240EB461001C9080 /* LaunchScreen.storyboard */,
 				BDDC4829240EB461001C9080 /* Info.plist */,
-				BD4918A62416667700D3B2C8 /* NewsCell.swift */,
-				BD6E8CAA241B9D29006FFE61 /* News.swift */,
-				BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */,
 			);
 			path = CatNews;
 			sourceTree = "<group>";

@@ -19,9 +19,26 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         newManager = NewsManager()
-        news = newManager?.fetchNews() ?? []
+//        newManager?.fetchNews(target: self, selector: #selector(onDataReceived))
+        newManager?.fetchNews(completion: { (news : [News]) in
+            self.onFetched(news)
+        })
+        newManager?.login(username: "abc", pass: "1234", completion: { (result, message) in
+            
+        })
         tblNews.dataSource = self
         tblNews.delegate = self
+    }
+    
+    private func onFetched(_ news : Array<News>) {
+        self.news = news
+        self.tblNews.reloadData()
+    }
+    
+    @objc func onDataReceived(_ news : Array<Any>) {
+        print("Ok I got \(news.count) items")
+        self.news = news as! [News]
+        self.tblNews.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
