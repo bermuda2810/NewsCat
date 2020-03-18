@@ -19,7 +19,8 @@ class NewsCell: UITableViewCell {
     
     
     func bindData(_ news : News) {
-        
+        roundCardView()
+        roundImage()
         lblTitle.text = news.title
         lblDesc.text = news.desc
     }
