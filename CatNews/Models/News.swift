@@ -9,9 +9,9 @@
 import Foundation
 
 struct News {
-    var imageUrl  : String? = nil
-    var title : String? = nil
-    var desc : String? = nil
-    var time : String? = nil
-    var date : String? = nil
+    var imageUrl  : String = ""
+    var title : String = ""
+    var desc : String = ""
+    var time : String = ""
+    var date : String = ""
 }

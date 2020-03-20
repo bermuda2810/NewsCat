@@ -31,9 +31,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         newManager?.delegate = self
 //        newManager?.fetchNews(target: self, selector: #selector(onDataReceived))
         newManager?.fetchNews()
-        newManager?.login(username: "abc", pass: "1234", completion: { (result, message) in
+//        newManager?.login(username: "abc", pass: "1234", completion: { (result, message) in
             
-        })
+//        })
         tblNews.dataSource = self
         tblNews.delegate = self
         print("viewDidLoad finished")
@@ -41,7 +41,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     func onNewsRecevied(news: [News]) {
-        
+        print("Ok I got \(news.count) items")
+               self.news = news as! [News]
+               self.tblNews.reloadData()
     }
     
     func onError(message: String) {
