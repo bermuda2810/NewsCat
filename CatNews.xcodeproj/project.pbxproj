@@ -10,6 +10,7 @@
 		BD4918A72416667700D3B2C8 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4918A62416667700D3B2C8 /* NewsCell.swift */; };
 		BD4DA25B2424E6DF00C2E63C /* ExtensionNSDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA25A2424E6DF00C2E63C /* ExtensionNSDictionary.swift */; };
 		BD4DA25D2424E86200C2E63C /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA25C2424E86200C2E63C /* ExtensionString.swift */; };
+		BD4DA28124253BB000C2E63C /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DA28024253BB000C2E63C /* StoryboardHelper.swift */; };
 		BD6E8CAB241B9D29006FFE61 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E8CAA241B9D29006FFE61 /* News.swift */; };
 		BD6E8CAD241BA28D006FFE61 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */; };
 		BDBD2FF524222EED001E0848 /* NewsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBD2FF424222EED001E0848 /* NewsHeaderView.xib */; };
@@ -28,6 +29,7 @@
 		BD4918A62416667700D3B2C8 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		BD4DA25A2424E6DF00C2E63C /* ExtensionNSDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionNSDictionary.swift; sourceTree = "<group>"; };
 		BD4DA25C2424E86200C2E63C /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		BD4DA28024253BB000C2E63C /* StoryboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
 		BD6E8CAA241B9D29006FFE61 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		BD6E8CAC241BA28D006FFE61 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
 		BDBD2FF424222EED001E0848 /* NewsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsHeaderView.xib; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDC4821240EB45B001C9080 /* Main.storyboard */,
+				BD4DA28024253BB000C2E63C /* StoryboardHelper.swift */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				BD4918A72416667700D3B2C8 /* NewsCell.swift in Sources */,
 				BDBD2FFB242237CB001E0848 /* NewsSeparatorView.swift in Sources */,
 				BD6E8CAB241B9D29006FFE61 /* News.swift in Sources */,
+				BD4DA28124253BB000C2E63C /* StoryboardHelper.swift in Sources */,
 				BD6E8CAD241BA28D006FFE61 /* NewsManager.swift in Sources */,
 				BD4DA25B2424E6DF00C2E63C /* ExtensionNSDictionary.swift in Sources */,
 				BDDC481E240EB45B001C9080 /* SceneDelegate.swift in Sources */,
@@ -380,6 +384,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L5Q8584KE5;
 				INFOPLIST_FILE = CatNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +405,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = L5Q8584KE5;
 				INFOPLIST_FILE = CatNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
