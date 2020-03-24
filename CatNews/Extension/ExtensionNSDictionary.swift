@@ -10,8 +10,8 @@ import Foundation
 
 extension NSDictionary {
     public func safeValueFor(key : String, defaultValue : Any) -> Any {
-        if let jValue = self.value(forKey: key){
-            return jValue
+        if let value = self.value(forKey: key){
+            return value
         }
         return defaultValue
     }
